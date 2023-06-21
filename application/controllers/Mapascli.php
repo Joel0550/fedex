@@ -1,7 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-
 class Mapascli extends CI_Controller
 {
 	function __construct()

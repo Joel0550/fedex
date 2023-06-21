@@ -1,13 +1,3 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <img src="<?php echo base_url(); ?>/assets/images/.png" alt="" style="width: 100%; height: 150px;">
-        </div>
-    </div>
-</div>
-
-
-
 
 <div class="container">
     <div class="row">
@@ -27,7 +17,7 @@
             <div class="col-md-4 text-center">
                 <label for="">CODIGO CLIENTE:</label>
                 <br>
-                <input type="text" placeholder="Ingrese un codigo" class="form-control" name="cod_cli" value="">
+                <input type="text" placeholder="Ingrese un codigo para el cliente" class="form-control" name="cod_cli" value="">
             </div>
             <div class="col-md-4 text-center">
                 <label for="">NOMBRE:</label>
@@ -42,27 +32,27 @@
             <div class="col-md-4 text-center">
                 <label for="">CORREO:</label>
                 <br>
-                <input type="text" placeholder="Ingrese sus nombres" class="form-control" name="correo_cli" value="">
+                <input type="text" placeholder="Ingrese su correo" class="form-control" name="correo_cli" value="">
             </div>
             <div class="col-md-4 text-center">
                 <label for="">TELEFONO:</label>
                 <br>
-                <input type="text" placeholder="Ingrese sus nombres" class="form-control" name="tel_cli" value="">
+                <input type="text" placeholder="Ingrese sus numero de telefono" class="form-control" name="tel_cli" value="">
             </div>
             <div class="col-md-4 text-center">
                 <label for="">DIRECCION:</label>
                 <br>
-                <input type="text" placeholder="Ingrese sus nombres" class="form-control" name="dir_cli" value="">
+                <input type="text" placeholder="Ingrese su direccion" class="form-control" name="dir_cli" value="">
             </div>
             <div class="col-md-4 text-center">
                 <label for="">CIUDAD:</label>
                 <br>
-                <input type="text" placeholder="Ingrese su movimiento" class="form-control" name="ciu_cli" value="">
+                <input type="text" placeholder="Ingrese su cuidad" class="form-control" name="ciu_cli" value="">
             </div>
             <div class="col-md-4 text-center">
                 <label for="">PAIS:</label>
                 <br>
-                <input type="text" placeholder="Ingrese sus nombres" class="form-control" name="pais_cli" value="">
+                <input type="text" placeholder="Ingrese su pais" class="form-control" name="pais_cli" value="">
             </div>
             <div class="col-md-4 text-center">
                 <label for="">LATITUD:</label>
@@ -74,8 +64,6 @@
                 <br>
                 <input type="text" placeholder="Seleccione la ubicacion en el mapa" class="form-control" name="longitud_cli" id="longitud" value="">
             </div>
-            
-            <div class="row">
                 <div class="col-md-12">
                     <br>
                     <div id="mapaUbicacion" 
@@ -83,7 +71,6 @@
                     border:2px solid black;"></div>
                     <br>
                 </div>
-            </div>
             <script type="text/javascript">
                 function initMap(){
                     var centro=

@@ -51,7 +51,7 @@
                         var marcador = new google.maps.Marker({
                             position: coordenadaTemporal,
                             title: "<?php echo $lugarTemporal->nom_cli; ?>",
-                            icon: "<?php echo base_url(); ?>/assets/images/ubi.png",
+                            icon: "<?php echo base_url(); ?>/assets/images/mar.png",
                             map: mapaLugaresTuristicos
                         });
 

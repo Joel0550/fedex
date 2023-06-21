@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
-            <img src="<?php echo base_url(); ?>/assets/images/.png" alt="" style="width: 200px; height: 200px;">
+            <img src="<?php echo base_url(); ?>/assets/images/11.png" alt="" style="width: 200px; height: 200px;">
         </div>
     </div>
 </div>
