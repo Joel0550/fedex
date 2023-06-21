@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                <h1 class="footer_taital">Manu</h1>
+                <h1 class="footer_taital">Menu</h1>
                 <div class="footer_menu">
                     <ul>
                         <li class="active"><a href="#">Home</a></li>
