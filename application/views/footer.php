@@ -1,4 +1,3 @@
-
 <!-- contact section end -->
 <!-- footer section start -->
 <div class="footer_section layout_padding">
