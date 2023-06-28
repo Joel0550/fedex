@@ -15,7 +15,7 @@
     <form class="" action="<?php echo site_url(); ?>/pedidos/guardar" method="post">
         <div class="row">
             <div class="col-md-4 text-center">
-                <label for="">CODIGO PEDIDO:</label>
+                <label for="">CODIGO DE PEDIDO:</label>
                 <br>
                 <input type="text" placeholder="Ingrese un codigo para pedido" class="form-control" name="cod_ped" value="">
             </div>
