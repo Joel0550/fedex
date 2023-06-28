@@ -15,7 +15,7 @@
     <form class="" action="<?php echo site_url(); ?>/sucursales/guardar" method="post">
         <div class="row">
             <div class="col-md-4 text-center">
-                <label for="">CODIGO SUCURSAL:</label>
+                <label for="">CODIGO DE SUCURSAL:</label>
                 <br>
                 <input type="text" placeholder="Ingrese un codigo para la sucursal" class="form-control" name="cod_suc" value="">
             </div>
@@ -96,7 +96,7 @@
             <button type="submit" name="button" class="btn btn-primary">
                 GUARDAR
             </button>
-            &nbsp;
+            &nbsp;&nbsp;
             <a href="<?php echo site_url(); ?>/sucursales/index" class="btn btn-danger">CANCELAR</a>
         </div>
         <br>
