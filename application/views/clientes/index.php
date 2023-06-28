@@ -27,7 +27,7 @@
     <table class="table table=striped table-bordered table-hover">
         <thead>
             <tr>
-                <th>CODIGO</th>
+                <th>CODIGO DE CLIENTE</th>
                 <th>NOMBRE</th>
                 <th>APELLIDO</th>
                 <th>CORREO</th>
